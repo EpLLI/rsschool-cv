@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://github.com/EpLLI/rsschool-cv/cv.md
