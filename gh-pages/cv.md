@@ -30,5 +30,5 @@ DEVELOPER (JD1 JAVA Programming, JD2 Java Enterprise Development Technologies)
 
 ### English Skills
 - Streamline
-  -Elementary (A2)
-  -Pre-Intermediate (A2+)
+  - Elementary (A2)
+  - Pre-Intermediate (A2+)
