@@ -1,8 +1,12 @@
 # Ivan Staniush 
 
 ### Contacts 
+* Phone nubmer: +375292936044
+* e-mail: staniush.iv@gmail.com
+* github: [EpLLI-github] (https://github.com/EpLLI)
 
 ### Summary 
+The developer with a strong technical background. I really like to learn and learn something new. I have good analytical skills. I am think if I have an opportunity I will be useful employee for the company.
 
 ### Skills 
 * Software development: HTML5, CSS3, Java, SQL, Oracle
