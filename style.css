@@ -1,0 +1,82 @@
+body {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #e3ffd2;
+}
+
+header,
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header{
+    grid-template-areas: "photo name contacts";
+    color: #30362F;
+}
+
+header img{
+    grid-area: photo;
+    width: 100%;
+}
+
+header .name{
+
+    grid-area: name;
+}
+
+header div{
+    grid-area: phones;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .contact-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    grid-area: contacts;
+    }
+
+main{
+        grid-template-areas:    "summary summary skills"
+                                "summary summary skills"
+                                "experience experience skills"
+                                "experience experience examples"
+                                "education education languages";
+    }
+    main article{
+        padding: 15px;
+        
+    }
+    main article h3{
+        text-transform: uppercase;
+        color: #30362F;
+        text-decoration: underline;
+        padding-left: 10px;
+        margin: 10px 0;
+    }
+
+    main .summary{
+        grid-area: summary;
+    }
+    
+    main .skills{
+        grid-area: skills;
+    }
+    
+    main .examples{
+        grid-area: examples;
+    }
+    
+    main .experience{
+        grid-area: experience;
+    }
+    
+    main .education{
+        grid-area: education;
+    }
+    
+    main .languages{
+        grid-area: languages;
+    }
