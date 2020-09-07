@@ -15,13 +15,12 @@ header{
     color: #30362F;
 }
 
-header img{
+header .img{
     grid-area: photo;
     width: 100%;
 }
 
 header .name{
-
     grid-area: name;
 }
 
@@ -57,26 +56,42 @@ main{
         margin: 10px 0;
     }
 
+    main article p,
+    main article ul {
+        margin: 5px 0;
+    }
+
     main .summary{
         grid-area: summary;
+        background-color: #ffe4ac;
     }
     
     main .skills{
         grid-area: skills;
+        background-color: #a5ffa8;
     }
     
     main .examples{
         grid-area: examples;
+        background-color: #DEFEFF;
     }
     
     main .experience{
         grid-area: experience;
+        background-color: #B8D4BD;
     }
     
     main .education{
         grid-area: education;
+        background-color: #a5ffa8;
     }
     
     main .languages{
         grid-area: languages;
+        background-color: #ffe4ac;
+    }
+
+    footer{
+        margin: 25px 0;
+        text-align: right;
     }
